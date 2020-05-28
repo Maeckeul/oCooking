@@ -57,6 +57,7 @@ class Recipe_cpt
             'menu_position'         => 4,
             'menu_icon'             => 'dashicons-carrot',
             'has_archive'           => true,
+            'show_in_rest'          => true,
             'rewrite'               => [
                 'slug'              => 'recette',
                 'with_front'        => true,
